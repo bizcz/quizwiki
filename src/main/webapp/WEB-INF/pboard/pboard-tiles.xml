@@ -4,8 +4,12 @@
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 
 <tiles-definitions>
-	<definition name="pboard/list" extends="singleTemplate">
+	<definition name="pboard/list" extends="doubleBannerTemplate">
 		<put-attribute name="content" value="/WEB-INF/pboard/pboard_list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="pboard/write" extends="doubleBannerTemplate">
+		<put-attribute name="content" value="/WEB-INF/pboard/pboard_write.jsp"></put-attribute>
 	</definition>
 </tiles-definitions>
 

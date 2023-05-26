@@ -6,30 +6,34 @@
 <link rel="stylesheet" type="text/css" href="/quizwiki/css/footer.css"/>
 </head>
 <footer>
+	<div class="footer-full-hr"></div>
 	<section id="footer-section">
+		
 	    <div class="footer-information">
 	        <p>
 	            상담문의 070-5001-1976 <span style="color:#868686; margin-left:15px;">월~금 11:00 ~ 18:00 (주말, 공휴일 휴무)</span>
 	        </p>
 	    </div>
 	    <ul class="footer-link-list">
-	        <li>
-	            <a href="#">
-	                이용약관
-	            </a>
-	        </li>
-	        <li>
-	            <a class="special-a" href="#">
-	                개인정보처리방침
-	            </a>
-	        </li>
-	        <li>
-	            <a href="#">
-	                고객센터
-	            </a>
-	        </li>
-	    </ul>
+		        <li>
+		            <a href="/quizwiki/use">
+		                이용약관
+		            </a>
+		        </li>
+		        <li>
+		            <a class="special-a" href="/quizwiki/infor">
+		                개인정보처리방침
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                고객센터
+		            </a>
+		        </li>
+		    </ul>
+		
 	</section>
+	<div class="footer-full-hr"></div>
 	
 	<section id="footer-section2">
 	    <div id="footer-logo-holder">
