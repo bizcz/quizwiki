@@ -1,0 +1,327 @@
+
+#pboard-list-banner-section{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    padding: 30px 0;
+
+    background-color: #f5f5f5;
+}
+
+
+
+.banner-gradient{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #007208, #02c158, #007208);
+    opacity: .7;
+}
+
+
+#pboard-list-banner{
+    position: relative;
+	width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+
+    height: 200px;
+    
+	background-image: url(/quizwiki/images/pboard/texture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border:#ff7700a1 10px solid;
+    border-style: ridge;
+    box-sizing: border-box;
+}
+
+#pboard-list-banner h1{
+    align-self: center;
+    font-family: "Typo_Crayon";
+    z-index: 5;
+	color: white;
+	font-size: 64px;
+	text-shadow: 5px 5px #000000;
+	padding-top:5px;
+    margin-left: 50px;
+}
+#pboard-list-banner h1::selection{
+    background-color: #01d00f;
+}
+
+#pboard-list-title{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-bottom:30px;
+}
+
+.list-title-subject{
+    font-family: "Esamanru";
+    font-size: 32px;
+}
+.list-title::selection{
+    background-color: #006407;
+}
+
+#write-btn{
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #2b5293;
+    text-align: center;
+    color: white;
+    font-family: "Esamanru";
+    font-size: 18px;
+
+    margin-left: auto;
+}
+
+#write-btn:hover{
+    background: white;
+    outline:3px solid #2b5293;
+    color: #2b5293;
+
+}
+
+
+#pboard-list-content-section{
+    width: 100%;
+    padding: 30px 0;
+
+    background-color: #f5f5f5;
+}
+
+#pboard-content{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#pboard-aside{
+    padding: 30px 0 30px 15px;
+    width: 275px;
+    height: fit-content;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+
+    border: 2px #949494 dashed;
+}
+
+.pboard-aside-cate{
+    margin-bottom: 30px;
+}
+
+
+
+#pboard-aside-title{
+    font-family: "Esamanru";
+    font-size: 24px;
+}
+
+.aside-shifter{
+    width: 90%;
+    height: 1px;
+    border-bottom: 2px dashed rgb(136, 136, 136);
+    padding: 4px;
+    box-sizing: content-box;
+}
+
+.aside-nav li{
+    padding-top: 15px;
+}
+
+#pboard-list-content-section li a{
+    text-decoration: none;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    padding: 5px;
+}
+
+.aside-nav li a {
+    color: #737373;
+}
+.aside-nav li a:link {
+    color: #737373;
+}
+.aside-nav li a:visited {
+    color: #737373;
+}
+.aside-nav li a:active {
+    color: #737373;
+}
+
+
+.aside-nav li a:hover {
+    
+    background-color: #447ad9;
+    border-radius: 3px;
+    color: #fff;
+}
+#nav-select{
+    background-color: #86aff8;
+    border-radius: 3px;
+    color: #fff;
+}
+#nav-select li a:link {
+    color: #fff;
+}
+#nav-select li a:visited {
+    color: #fff;
+}
+#nav-select li a:active {
+    color: #fff;
+}
+
+#pboard-list{
+    width: 880px;
+    height: 500px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 30px 0 30px 15px;
+
+    border: 2px #949494 dashed;
+}
+
+
+
+
+#search-bar{
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 7px;
+    background: #f5f5f5;
+    padding: 15px 20px;
+    justify-content: space-between;
+
+    display: flex;
+}
+
+.serach-group{
+    display: flex;
+}
+
+.custom {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #212121;
+    background-size: 10px;
+}
+
+input[type="text"].custom {
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #212121;
+}
+
+.search-input button {
+    width: 75px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    color: #212121;
+    font-size: 14px;
+    background: #fff;
+    margin-left: 3px;
+}
+
+.pboard{
+    margin: 15px auto;
+    width: 90%;
+    background: #fafafa;
+    padding: 15px 20px;
+}
+
+.pboard table{
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Pretendard';
+    table-layout: fixed;
+}
+.pboard th{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px 0 1px 0;
+
+    height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    color: #333;
+}
+
+.pboard tbody td{
+    padding:10px 0;
+    text-align: center;
+    vertical-align:middle;
+    border-bottom: 2px dashed #c6c6c6;
+}
+
+.pboard thead{
+    font-size: 12px;
+}
+.pboard tbody{
+    font-size: 14px;
+}
+
+.pboard tbody td a{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pboard .text-left{
+    text-align: left;
+}
+
+.board-layout-no{
+    width: 8%;
+    padding: 0 1%;
+}
+.board-layout-title{
+    max-width: 48%;
+    padding: 0 1%;
+}
+.board-layout-author{
+    width: 8%;
+    padding: 0 1%;
+}
+.board-layout-regdate{
+    width: 8%;
+    padding: 0 1%;
+}
+.board-layout-view{
+    width: 8%;
+    padding: 0 1%;
+}
+.board-layout-like{
+    width: 8%;
+    padding: 0 1%;
+}
