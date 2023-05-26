@@ -19,4 +19,12 @@ public class MainController {
 	public String show_pboard() {
 		return "pboard/list";
 	}
+	@RequestMapping("/use")
+	public String use() {
+		return "use";
+	}
+	@RequestMapping("/infor")
+	public String infor() {
+		return "infor";
+	}
 }
