@@ -10,15 +10,9 @@ public class MainController {
 		
 	}
 	
-	@RequestMapping("/main")
-	public String show_main() {
-		return "singleTemplate";
-	}
+
 	
-	@RequestMapping("/pboard/list")
-	public String show_pboard() {
-		return "pboard/list";
-	}
+	
 	@RequestMapping("/use")
 	public String use() {
 		return "use";

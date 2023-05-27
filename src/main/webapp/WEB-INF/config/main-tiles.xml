@@ -9,6 +9,14 @@
 		<put-attribute name="content" value="/WEB-INF/mainpage/mainpage.jsp"></put-attribute>
 		<put-attribute name="footer" value="/WEB-INF/include/footer.jsp"></put-attribute>
 	</definition>
+	
+	<definition name="doubleBannerTemplate" template="/WEB-INF/layout/double_banner.jsp">
+		<put-attribute name="header" value="/WEB-INF/include/header.jsp"></put-attribute>
+		<put-attribute name="banner" value="/WEB-INF/pboard/pboard_banner.jsp"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/pboard/pboard_list.jsp"></put-attribute>
+		<put-attribute name="aside" value="/WEB-INF/pboard/pboard_aside.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/include/footer.jsp"></put-attribute>
+	</definition>
 </tiles-definitions>
 
 
