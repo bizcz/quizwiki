@@ -34,6 +34,12 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
+		
+		
+	}
+	@RequestMapping("/write.do")
+	public String goBoardWrite() {
+		return "boardWrite";
 	}
 	
 }

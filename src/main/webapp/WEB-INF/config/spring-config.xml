@@ -27,9 +27,16 @@
 	<resources mapping="/images/**" location="/WEB-INF/static/images/" />
 	<!-- css -->
 	<resources mapping="/common/css/**" location="/WEB-INF/static/common/css/" />
+	<resources mapping="/css/**" location="/WEB-INF/static/common/css/" />
+	<!-- font -->
+	<resources mapping="/font/**" location="/WEB-INF/static/common/font/" />
 	<!--  js -->
 	<resources mapping="/common/js/**" location="/WEB-INF/static/common/js/" />
+	<resources mapping="/js/**" location="/WEB-INF/static/common/js/" />
 	<resources mapping="/upload/**" location="/WEB-INF/upload/" />
+	
+	<!-- libs -->
+	<resources mapping="/libs/**" location="/WEB-INF/static/libs/" />
 	<!--==================================jsp파일의 위치를 이용해서 뷰정보를 만들어내는 ViewResolver====================  -->
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -56,9 +63,9 @@
 	
 	<beans:bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 		<beans:property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-		<beans:property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/?serverTimezone=UTC"/>
-		<beans:property name="username" value="?"/>
-		<beans:property name="password" value="?"/>
+		<beans:property name="jdbcUrl" value="jdbc:mysql://localhost:3306/erp?serverTimezone=UTC"/>
+		<beans:property name="username" value="erp"/>
+		<beans:property name="password" value="erp"/>
 		<!-- <beans:property name="maximumPoolSize" value="20"/> -->
 	</beans:bean>
 	<beans:bean id="ds" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
