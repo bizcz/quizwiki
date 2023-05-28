@@ -5,7 +5,7 @@
 
 <tiles-definitions>
 	<definition name="pboard/list" extends="doubleBannerTemplate">
-		<put-attribute name="content" value="/WEB-INF/pboard/pboard_list.jsp"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/pboard/pboard_list.jsp" ></put-attribute>
 	</definition>
 	
 	<definition name="pboard/write" extends="doubleBannerTemplate">
