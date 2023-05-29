@@ -1,6 +1,5 @@
 #pboard-title{
     margin: 0 auto;
-    width: 90%;
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
@@ -45,7 +44,6 @@
 /* write */
 #pboard-write{
     width: 880px;
-    height: 500px;
     background-color: white;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -55,10 +53,14 @@
     border: 2px #949494 dashed;
 }
 
+.pboard-write-outer{
+	width:90%;
+	margin:0 auto;
+}
+
 
 #editor-form{
 	margin: 0 auto;
-    width: 90%;
     padding: 15px 20px;
     margin-bottom: 30px;
 }
@@ -88,7 +90,7 @@
 }
 
 /* BTN */
-.btn-lsit{
+.btn-list{
 	width:100%;
 	display:flex;
 }
@@ -117,6 +119,10 @@
 }
 
 /* problem maker */
+#pmaker-area{
+	width:100%;
+}
+
 #pmaker-desc-container{
 	display: flex;
 }
@@ -130,3 +136,57 @@
     font-size: 12px;
     color:#979797;
 }
+
+
+.plist-item-table{
+	margin: 15px 0;
+	width:100%;
+    padding: 30px 5px;
+    border-radius: 4px;
+    font-family: "Pretendard";
+}
+
+.plist-item-table thead{
+	background: #62b989;
+}
+
+.plist-item-table thead tr{
+	border-bottom: 3px solid #3d8556;
+	color: #a3e0be;
+	font-weight: bold;
+}
+.plist-item-table tbody tr:nth-child(odd){
+	background: #E5F9DB;
+}
+.plist-item-table tbody tr:nth-child(even){
+	background: #A0D8B3;
+}
+
+.plist-item-table tbody tr{
+	border-bottom: 2px dashed #8fdb86;
+	color: black;
+}
+
+.plist-right-border{
+	border-right : 2px dotted #3d85564f;
+}
+
+.plist-item-no{
+	width:8%;
+	padding:10px 1%;
+	text-align: center;
+}
+.plist-item-type{
+	width:8%;
+	padding:10px 1%;
+}
+.plist-item-content{
+	width:68%;
+	padding:10px 1%;
+	
+}
+.plist-item-edit{
+	width:8%;
+	padding:10px 1%;
+}
+
