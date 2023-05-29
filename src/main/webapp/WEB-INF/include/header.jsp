@@ -22,10 +22,10 @@
             </div>
 
             <div class="util-sub-menu">
-                <a href="#" class="shift-between">
+                <a href="/quizwiki/login.do" class="shift-between">
                     로그인
                 </a>
-                <a href="#" class="shift-between">
+                <a href="/quizwiki/signup.do" class="shift-between">
                     회원가입
                 </a>
                 <a href="#">

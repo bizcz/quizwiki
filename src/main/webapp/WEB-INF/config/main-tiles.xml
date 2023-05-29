@@ -17,6 +17,11 @@
 		<put-attribute name="aside" value="/WEB-INF/pboard/pboard_aside.jsp"></put-attribute>
 		<put-attribute name="footer" value="/WEB-INF/include/footer.jsp"></put-attribute>
 	</definition>
+	
+	<definition name="contentTemplate" template="/WEB-INF/layout/content_only.jsp">
+		<put-attribute name="content" value="/WEB-INF/member/login.jsp" />
+	</definition>
+	
 </tiles-definitions>
 
 
